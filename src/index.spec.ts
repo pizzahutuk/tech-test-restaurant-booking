@@ -1,7 +1,7 @@
-import { hello } from ".";
+import { bookSeat } from ".";
 
-describe("test", () => {
-  test("add", () => {
-    expect(hello()).toEqual("hello");
+describe("Booking", () => {
+  test("seat can be booked", () => {
+    expect(bookSeat()).toBeTruthy();
   });
 });
