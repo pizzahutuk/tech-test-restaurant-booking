@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "npm": ">=7.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.7",
