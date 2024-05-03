@@ -1,18 +1,23 @@
-# Table booking system for a small restaurant
+# Restaurant Booking System
 
-A recently opened restaurant don't have staff to take bookings over the phone due to sudden popularity. They’re scrambling to put something into production that supports this. They’ve asked a consultancy, which you are part of, to create a prototype booking system. Your task is the backend part of the prototype. Assume that the frontend is being handled by your colleague. There’s *no need to implement* the server boilerplate for this exercise.
+A restaurant owner has asked you to implement a booking system for their restaurant. Please implement the following requirements one by one.
 
-## Tips
+## Guidance
 
-- Ask clarifying questions.
-- Keep it simple, assume this iteration is the MVP, but one intended to work in production for a short time, as a proof of concept for a limited number of customers.
-- Mention any scope or user scenarios considered, but excluded.
-- Consider the unhappy path (e.g. where can exceptions or failures occur)
-- UI is not a concern.
-- Write good tests
+* Keep it Simple.
+    * Do not create API endpoints
+    * Do not use a real database. ( Hardcoded Javascipt Objects/Arrays is fine)
+    * Use simple functions and/or classes.
+* Write Tests as you go.
 
-## MVP
+## Requirements
 
-- Support booking a seat for a single day that restaurant staff can use.
-- Restaurant can seat 30 people.
+1. A Customer should be able to book a seat.
 
+2. The Restaurant has a limited capacity and only has space for 30 seats.
+
+3. The Owner can see the amount of free seats available.
+
+4. The Owner can see the seat number of the next available seat.
+
+5. The Customer should be able to book a Table rather than individual Seats. Each Table has 2 Seats.
