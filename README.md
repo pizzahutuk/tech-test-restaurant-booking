@@ -4,11 +4,11 @@ A restaurant owner has asked you to implement a booking system for their restaur
 
 ## Guidance
 
-* Keep it Simple.
+* Keep it simple
     * Do not create API endpoints
-    * Do not use a real database. ( Hardcoded Javascipt Objects/Arrays is fine)
-    * Use simple functions and/or classes.
-* Write Tests as you go.
+    * Do not use a real database (hard-coded JavaScipt objects/arrays are fine)
+    * Use simple functions and/or classes
+* Write tests as you go
 
 ## Requirements
 
@@ -20,4 +20,5 @@ A restaurant owner has asked you to implement a booking system for their restaur
 
 4. The Owner can see the seat number of the next available seat.
 
-5. The Customer should be able to book a Table rather than individual Seats. Each Table has 2 Seats.
+5. The Customer should be able to book a table rather than individual seats. Each table
+has two seats.
