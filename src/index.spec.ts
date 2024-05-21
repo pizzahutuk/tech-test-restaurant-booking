@@ -1,7 +1,7 @@
-import { bookSeat } from ".";
+import { bookSeat } from "."
 
 describe("Booking", () => {
   test("seat can be booked", () => {
-    expect(bookSeat()).toBeTruthy();
-  });
-});
+    expect(bookSeat()).toBeTruthy()
+  })
+})

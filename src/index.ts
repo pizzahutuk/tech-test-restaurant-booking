@@ -1,3 +1,3 @@
 export function bookSeat(): boolean {
-  return true;
+  return true
 }
